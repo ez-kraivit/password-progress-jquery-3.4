@@ -30,6 +30,7 @@ jQuery(function () {
                 $("#progressbar").removeClass("bg-success");
                 $("#progressbar").removeClass("bg-danger");
                 $("#progressbar").removeClass("bg-warning");
+                $("#progressbar").text("");
                 break;
             case 1:
                 $("#progressbar").css("width", "25%");
